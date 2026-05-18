@@ -1,0 +1,8 @@
+"""text
+streamlit
+groq
+pypdf
+langchain-text-splitters
+pydantic
+python-dotenv
+"""

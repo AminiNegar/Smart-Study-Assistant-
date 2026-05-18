@@ -10,7 +10,7 @@ import sqlite3
 
 #api key
 load_dotenv()
-client = Groq(api_key="GROQ_API_KEY")
+client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
 # classes
 class QuizItem(BaseModel):
